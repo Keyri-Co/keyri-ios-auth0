@@ -1,0 +1,6 @@
+framework module Pods_KeyriAuth0_KeyriAuth0UITests {
+  umbrella header "Pods-KeyriAuth0-KeyriAuth0UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

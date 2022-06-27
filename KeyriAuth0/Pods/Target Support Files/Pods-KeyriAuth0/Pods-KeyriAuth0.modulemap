@@ -1,0 +1,6 @@
+framework module Pods_KeyriAuth0 {
+  umbrella header "Pods-KeyriAuth0-umbrella.h"
+
+  export *
+  module * { export * }
+}

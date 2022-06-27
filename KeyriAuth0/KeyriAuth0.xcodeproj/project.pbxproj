@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2045A267286A4EF300860FB3 /* KeyriAuth0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A266286A4EF300860FB3 /* KeyriAuth0App.swift */; };
+		2045A269286A4EF300860FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A268286A4EF300860FB3 /* ContentView.swift */; };
+		2045A26B286A4EF400860FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A26A286A4EF400860FB3 /* Assets.xcassets */; };
+		2045A26E286A4EF400860FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A26D286A4EF400860FB3 /* Preview Assets.xcassets */; };
+		2045A278286A4EF400860FB3 /* KeyriAuth0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A277286A4EF400860FB3 /* KeyriAuth0Tests.swift */; };
+		2045A282286A4EF400860FB3 /* KeyriAuth0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A281286A4EF400860FB3 /* KeyriAuth0UITests.swift */; };
+		2045A284286A4EF400860FB3 /* KeyriAuth0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A283286A4EF400860FB3 /* KeyriAuth0UITestsLaunchTests.swift */; };
+		3E0A5E8468A4601DC6361553 /* Pods_KeyriAuth0_KeyriAuth0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3406ADEF5454B5F9A5C48 /* Pods_KeyriAuth0_KeyriAuth0UITests.framework */; };
+		69EF057909B1562C61F09455 /* Pods_KeyriAuth0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB361AA4CEE58C09F8A3194 /* Pods_KeyriAuth0Tests.framework */; };
+		E154FD89C034637DA47A3D02 /* Pods_KeyriAuth0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4BEBDC15C564187016E5C6 /* Pods_KeyriAuth0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2045A274286A4EF400860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A25B286A4EF300860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A262286A4EF300860FB3;
+			remoteInfo = KeyriAuth0;
+		};
+		2045A27E286A4EF400860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A25B286A4EF300860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A262286A4EF300860FB3;
+			remoteInfo = KeyriAuth0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C881BF28544D166B3A3EA /* Pods-KeyriAuth0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0.debug.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0/Pods-KeyriAuth0.debug.xcconfig"; sourceTree = "<group>"; };
+		2045A263286A4EF300860FB3 /* KeyriAuth0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyriAuth0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A266286A4EF300860FB3 /* KeyriAuth0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriAuth0App.swift; sourceTree = "<group>"; };
+		2045A268286A4EF300860FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2045A26A286A4EF400860FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2045A26D286A4EF400860FB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2045A273286A4EF400860FB3 /* KeyriAuth0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriAuth0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A277286A4EF400860FB3 /* KeyriAuth0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriAuth0Tests.swift; sourceTree = "<group>"; };
+		2045A27D286A4EF400860FB3 /* KeyriAuth0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriAuth0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A281286A4EF400860FB3 /* KeyriAuth0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriAuth0UITests.swift; sourceTree = "<group>"; };
+		2045A283286A4EF400860FB3 /* KeyriAuth0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriAuth0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		212EDBF833E706BBE3874B41 /* Pods-KeyriAuth0-KeyriAuth0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0-KeyriAuth0UITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0-KeyriAuth0UITests/Pods-KeyriAuth0-KeyriAuth0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F3406ADEF5454B5F9A5C48 /* Pods_KeyriAuth0_KeyriAuth0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriAuth0_KeyriAuth0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157E134C43CB0AAAFA9FCF7 /* Pods-KeyriAuth0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0.release.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0/Pods-KeyriAuth0.release.xcconfig"; sourceTree = "<group>"; };
+		4A4BEBDC15C564187016E5C6 /* Pods_KeyriAuth0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriAuth0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6739BDA89BA79C5517136660 /* Pods-KeyriAuth0-KeyriAuth0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0-KeyriAuth0UITests.release.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0-KeyriAuth0UITests/Pods-KeyriAuth0-KeyriAuth0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFB361AA4CEE58C09F8A3194 /* Pods_KeyriAuth0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriAuth0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1ACA3443DBA42464BFFD8C /* Pods-KeyriAuth0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0Tests.release.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0Tests/Pods-KeyriAuth0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F487C19620B38995636F3A9A /* Pods-KeyriAuth0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriAuth0Tests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriAuth0Tests/Pods-KeyriAuth0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2045A260286A4EF300860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E154FD89C034637DA47A3D02 /* Pods_KeyriAuth0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A270286A4EF400860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EF057909B1562C61F09455 /* Pods_KeyriAuth0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A27A286A4EF400860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0A5E8468A4601DC6361553 /* Pods_KeyriAuth0_KeyriAuth0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2045A25A286A4EF300860FB3 = {
+			isa = PBXGroup;
+			children = (
+				2045A265286A4EF300860FB3 /* KeyriAuth0 */,
+				2045A276286A4EF400860FB3 /* KeyriAuth0Tests */,
+				2045A280286A4EF400860FB3 /* KeyriAuth0UITests */,
+				2045A264286A4EF300860FB3 /* Products */,
+				FDBE5DAE2333595F390F3BD9 /* Pods */,
+				545A981DAB1C2B245A3E163B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2045A264286A4EF300860FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2045A263286A4EF300860FB3 /* KeyriAuth0.app */,
+				2045A273286A4EF400860FB3 /* KeyriAuth0Tests.xctest */,
+				2045A27D286A4EF400860FB3 /* KeyriAuth0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2045A265286A4EF300860FB3 /* KeyriAuth0 */ = {
+			isa = PBXGroup;
+			children = (
+				2045A266286A4EF300860FB3 /* KeyriAuth0App.swift */,
+				2045A268286A4EF300860FB3 /* ContentView.swift */,
+				2045A26A286A4EF400860FB3 /* Assets.xcassets */,
+				2045A26C286A4EF400860FB3 /* Preview Content */,
+			);
+			path = KeyriAuth0;
+			sourceTree = "<group>";
+		};
+		2045A26C286A4EF400860FB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2045A26D286A4EF400860FB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2045A276286A4EF400860FB3 /* KeyriAuth0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A277286A4EF400860FB3 /* KeyriAuth0Tests.swift */,
+			);
+			path = KeyriAuth0Tests;
+			sourceTree = "<group>";
+		};
+		2045A280286A4EF400860FB3 /* KeyriAuth0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A281286A4EF400860FB3 /* KeyriAuth0UITests.swift */,
+				2045A283286A4EF400860FB3 /* KeyriAuth0UITestsLaunchTests.swift */,
+			);
+			path = KeyriAuth0UITests;
+			sourceTree = "<group>";
+		};
+		545A981DAB1C2B245A3E163B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4BEBDC15C564187016E5C6 /* Pods_KeyriAuth0.framework */,
+				39F3406ADEF5454B5F9A5C48 /* Pods_KeyriAuth0_KeyriAuth0UITests.framework */,
+				DFB361AA4CEE58C09F8A3194 /* Pods_KeyriAuth0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDBE5DAE2333595F390F3BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				026C881BF28544D166B3A3EA /* Pods-KeyriAuth0.debug.xcconfig */,
+				4157E134C43CB0AAAFA9FCF7 /* Pods-KeyriAuth0.release.xcconfig */,
+				212EDBF833E706BBE3874B41 /* Pods-KeyriAuth0-KeyriAuth0UITests.debug.xcconfig */,
+				6739BDA89BA79C5517136660 /* Pods-KeyriAuth0-KeyriAuth0UITests.release.xcconfig */,
+				F487C19620B38995636F3A9A /* Pods-KeyriAuth0Tests.debug.xcconfig */,
+				EC1ACA3443DBA42464BFFD8C /* Pods-KeyriAuth0Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2045A262286A4EF300860FB3 /* KeyriAuth0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A287286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0" */;
+			buildPhases = (
+				50FF45886D14F2FAAF5A2123 /* [CP] Check Pods Manifest.lock */,
+				2045A25F286A4EF300860FB3 /* Sources */,
+				2045A260286A4EF300860FB3 /* Frameworks */,
+				2045A261286A4EF300860FB3 /* Resources */,
+				E6A9F23F54746B2F711F7273 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyriAuth0;
+			productName = KeyriAuth0;
+			productReference = 2045A263286A4EF300860FB3 /* KeyriAuth0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2045A272286A4EF400860FB3 /* KeyriAuth0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A28A286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0Tests" */;
+			buildPhases = (
+				32A85F13166D71E324585927 /* [CP] Check Pods Manifest.lock */,
+				2045A26F286A4EF400860FB3 /* Sources */,
+				2045A270286A4EF400860FB3 /* Frameworks */,
+				2045A271286A4EF400860FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A275286A4EF400860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriAuth0Tests;
+			productName = KeyriAuth0Tests;
+			productReference = 2045A273286A4EF400860FB3 /* KeyriAuth0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2045A27C286A4EF400860FB3 /* KeyriAuth0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A28D286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0UITests" */;
+			buildPhases = (
+				2B34FD1F27482BE92A29D4EE /* [CP] Check Pods Manifest.lock */,
+				2045A279286A4EF400860FB3 /* Sources */,
+				2045A27A286A4EF400860FB3 /* Frameworks */,
+				2045A27B286A4EF400860FB3 /* Resources */,
+				DA7161044751A5DC60E4191C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A27F286A4EF400860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriAuth0UITests;
+			productName = KeyriAuth0UITests;
+			productReference = 2045A27D286A4EF400860FB3 /* KeyriAuth0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2045A25B286A4EF300860FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2045A262286A4EF300860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2045A272286A4EF400860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A262286A4EF300860FB3;
+					};
+					2045A27C286A4EF400860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A262286A4EF300860FB3;
+					};
+				};
+			};
+			buildConfigurationList = 2045A25E286A4EF300860FB3 /* Build configuration list for PBXProject "KeyriAuth0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2045A25A286A4EF300860FB3;
+			productRefGroup = 2045A264286A4EF300860FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2045A262286A4EF300860FB3 /* KeyriAuth0 */,
+				2045A272286A4EF400860FB3 /* KeyriAuth0Tests */,
+				2045A27C286A4EF400860FB3 /* KeyriAuth0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2045A261286A4EF300860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A26E286A4EF400860FB3 /* Preview Assets.xcassets in Resources */,
+				2045A26B286A4EF400860FB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A271286A4EF400860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A27B286A4EF400860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B34FD1F27482BE92A29D4EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriAuth0-KeyriAuth0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A85F13166D71E324585927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriAuth0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FF45886D14F2FAAF5A2123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriAuth0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7161044751A5DC60E4191C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0-KeyriAuth0UITests/Pods-KeyriAuth0-KeyriAuth0UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0-KeyriAuth0UITests/Pods-KeyriAuth0-KeyriAuth0UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0-KeyriAuth0UITests/Pods-KeyriAuth0-KeyriAuth0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A9F23F54746B2F711F7273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0/Pods-KeyriAuth0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0/Pods-KeyriAuth0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriAuth0/Pods-KeyriAuth0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2045A25F286A4EF300860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A269286A4EF300860FB3 /* ContentView.swift in Sources */,
+				2045A267286A4EF300860FB3 /* KeyriAuth0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A26F286A4EF400860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A278286A4EF400860FB3 /* KeyriAuth0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A279286A4EF400860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A284286A4EF400860FB3 /* KeyriAuth0UITestsLaunchTests.swift in Sources */,
+				2045A282286A4EF400860FB3 /* KeyriAuth0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2045A275286A4EF400860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A262286A4EF300860FB3 /* KeyriAuth0 */;
+			targetProxy = 2045A274286A4EF400860FB3 /* PBXContainerItemProxy */;
+		};
+		2045A27F286A4EF400860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A262286A4EF300860FB3 /* KeyriAuth0 */;
+			targetProxy = 2045A27E286A4EF400860FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2045A285286A4EF400860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2045A286286A4EF400860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2045A288286A4EF400860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026C881BF28544D166B3A3EA /* Pods-KeyriAuth0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriAuth0/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2045A289286A4EF400860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4157E134C43CB0AAAFA9FCF7 /* Pods-KeyriAuth0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriAuth0/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2045A28B286A4EF400860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F487C19620B38995636F3A9A /* Pods-KeyriAuth0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriAuth0.app/KeyriAuth0";
+			};
+			name = Debug;
+		};
+		2045A28C286A4EF400860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1ACA3443DBA42464BFFD8C /* Pods-KeyriAuth0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriAuth0.app/KeyriAuth0";
+			};
+			name = Release;
+		};
+		2045A28E286A4EF400860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212EDBF833E706BBE3874B41 /* Pods-KeyriAuth0-KeyriAuth0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriAuth0;
+			};
+			name = Debug;
+		};
+		2045A28F286A4EF400860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6739BDA89BA79C5517136660 /* Pods-KeyriAuth0-KeyriAuth0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriAuth0UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriAuth0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2045A25E286A4EF300860FB3 /* Build configuration list for PBXProject "KeyriAuth0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A285286A4EF400860FB3 /* Debug */,
+				2045A286286A4EF400860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A287286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A288286A4EF400860FB3 /* Debug */,
+				2045A289286A4EF400860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A28A286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A28B286A4EF400860FB3 /* Debug */,
+				2045A28C286A4EF400860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A28D286A4EF400860FB3 /* Build configuration list for PBXNativeTarget "KeyriAuth0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A28E286A4EF400860FB3 /* Debug */,
+				2045A28F286A4EF400860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2045A25B286A4EF300860FB3 /* Project object */;
+}
